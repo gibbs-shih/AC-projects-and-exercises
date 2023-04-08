@@ -1,0 +1,138 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  position: fixed;
+  top: 172px;
+  left: 309px;
+
+  width: 300px;
+  height: 500px;
+
+  background: linear-gradient(
+    161.98deg,
+    #07e3a1 13.65%,
+    rgba(11, 111, 218, 0) 87.85%
+  );
+  border-radius: 20px;
+}
+
+/* Bonus for you: center a background image! */
+.bernard-img {
+  position: absolute;
+  top: 94px;
+  left: 86px;
+  z-index: 1;
+  
+  width: 128px;
+  height: 156px;
+  
+  background-image: url(https://assets-lighthouse.alphacamp.co/uploads/image/file/14990/Bernard_keyer.png);
+  background-size: cover;
+  background-position: center center;
+  
+  border-radius: 64px;
+}
+
+/* begin your styles here!*/
+.contents {
+  position: absolute;
+  top: 200px;
+
+  width: 300px;
+  height: 300px;
+
+  background-color: #fcfcfc;
+  border-radius: 20px;
+}
+
+.name {
+  position: absolute;
+  top: 268px;
+  left: 102px;
+
+  width: 105px;
+  height: 35px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.position {
+  position: absolute;
+  top: 310px;
+  left: 86px;
+
+  width: 134px;
+  height: 20px;
+  padding: 3px 8px 3px 10px;
+  white-space: nowrap;
+  
+  border-radius: 30px;
+  background: #000000;
+  
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff; 
+}
+
+.saying {
+  position: absolute;
+  top: 350px;
+  left: 34px;
+
+  margin: 0;
+  width: 231px;
+  height: 112px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.circle-message {
+  position: absolute;
+  top: 18px;
+  left: 253px;
+  z-index: 0;
+
+  width: 30px;
+  height: 30px;
+
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.25);
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.circle-notification {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+
+  width: 10px;
+  height: 10px;
+
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.25);
+  background-color: #ff0000;
+  border-radius: 30px;
+}
