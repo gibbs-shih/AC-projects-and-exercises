@@ -1,0 +1,27 @@
+main,
+body {
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
+
+div {
+  background-color: black;
+  margin: auto auto;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+h1 {
+  color: white;
+}
+
+.display-3 {
+  color: yellow;
+}
