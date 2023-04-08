@@ -1,0 +1,65 @@
+body {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.red-bar,
+.green-bar,
+.blue-bar {
+  margin: 10px;
+}
+
+input {
+  opacity: 0.8;
+}
+
+.red {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  background: red;
+  padding: 2px 6px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 5px solid white;
+}
+
+.green {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  background: green;
+  padding: 2px 6px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 5px solid white;
+}
+
+.blue {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  background: blue;
+  padding: 2px 6px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 5px solid white;
+}
+
+.hex {
+  display: inline-block;
+  background-color: gray;
+  opacity: 0.4;
+  text-align: center;
+  width: 300px;
+  margin: 30px;
+}
+
+.hex-number {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
